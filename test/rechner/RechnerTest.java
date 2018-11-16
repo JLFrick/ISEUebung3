@@ -5,10 +5,19 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class RechnerTest {
-	@SuppressWarnings("deprecation")
 	@Test
-	void test() {
+	void testadd() {
 		Rechner rechnen = new Rechner();
-		assertEquals(23,rechnen.addNumb(16,7));
+		assertEquals(2,rechnen.addNumb(1.5,0.5));
+	}
+	@Test
+	void testmult() {
+		Rechner rechnen = new Rechner();
+		assertEquals(1,rechnen.mulNumb(2,0.5));
+	}
+	@Test
+	void testsub() {
+		Rechner rechnen = new Rechner();
+		assertEquals(1.5,rechnen.subNumb(2,0.5));
 	}
 }
