@@ -1,13 +1,13 @@
 package rechner;
 
 public class Rechner {
-	public int addNumb(int a, int b) {
+	public double addNumb(double a, double b) {
 		return (a+b);
 	}
-	public int subNumb(int a, int b) {
+	public double subNumb(double a, double b) {
 		return (a-b);
 	}
-	public int mulNumb(int a, int b ) {
+	public double mulNumb(double a, double b) {
 		return (a*b);
 	}
 }
